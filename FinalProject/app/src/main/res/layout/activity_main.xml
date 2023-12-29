@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#c65353"
+    >
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:text="Grab Some Food?"
+       android:textSize="35sp"
+       android:textColor="#e6e6ff"
+       android:textStyle="bold"
+       android:fontFamily="@font/blackjack"
+       android:id="@+id/FirstPageText"
+       />
+
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="60dp"
+       android:layout_marginStart="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginBottom="8dp"
+       android:background="@drawable/custom_button"
+       android:text="Let's Go"
+       android:textAllCaps="false"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       android:visibility="visible"
+       tools:visibility="visible"
+       android:onClick="HardFood"
+       />
+
+
+</LinearLayout>
